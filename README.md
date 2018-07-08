@@ -15,7 +15,7 @@ Copy the sources to your docker host and build the container:
 
 To run:
 
-	# docker run -v /mnt/raid10:/mnt -d -p 2222:22 -p 3000-5000:3000-5000 veeam/ssh:centos7
+	# docker run -v /mnt/raid10:/mnt -d -p 2222:22 -p 2500-5000:2500-5000 veeam/ssh:centos7
 
 To test:
 
